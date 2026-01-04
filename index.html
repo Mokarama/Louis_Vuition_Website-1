@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Document</title>
+    <title>Home page</title>
     <!-- --FontAwsome link--- -->
     <script src="https://kit.fontawesome.com/f2e7210208.js" crossorigin="anonymous"></script>
      
@@ -16,10 +16,10 @@
   <body class="w-full">
     <!-- ------------------ Home page---------------- -->
     <header>
-       <nav class="w-full border-b">
-  <div class="max-w-7xl mx-auto px-4 h-16 sm:h-20 flex items-center justify-between">
+  <nav class="w-full border-b-1 border-white hover:border-black fixed hover:bg-amber-50 ">
+   <div class="max-w-7xl mx-auto px-4 h-16 sm:h-20 flex items-center justify-between  text-white hover:text-black">
 
-    <!-- Left -->
+    <!-- Left --> 
     <div class="flex items-center gap-4 sm:gap-6">
       <!-- Menu -->
       <div class="flex items-center gap-1 sm:gap-2 cursor-pointer">
@@ -316,8 +316,10 @@
             <img class="bg-cover" src="./images/item4.png" alt="">
             <h2 class=" text-center pt-2">Monogram Chain Bracelet</h2>
          </div>
-         <button class="text-center border-2 py-5 rounded-4xl">Discover the Beauty Selection</button>
         </div>
+        <div class="flex flex-col justify-center items-center my-10">
+          <button class="text-center border-2 py-5 rounded-3xl px-20 hover:bg-blue-500 hover:text-white transform animate-bounce">Discover the Beauty Selection</button>
+         </div>
       </section>
 
 
@@ -327,7 +329,7 @@
         <h3 class="text-3xl pb-3 text-center">Louis Vuitton Services</h3>
         <p class="pb-7 text-center">Louis Vuitton offers an array of tailored services — including Client Advisor support, signature gift wrapping, and exclusive personalization options.</p>
        
-        <div class=" grid grid-cols-1  md:grid-cols-3 justify-around gap-2  mx-10 md:mx-28">
+        <div class=" grid md:grid-cols-3 justify-between gap-4  mx-10">
            <!-- gift card-1  -->
            <div class=" pb-5">
             <img class="bg-cover" src="./images/gift1.jpg" alt="">
