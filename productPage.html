@@ -10,11 +10,11 @@
       <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
     <link rel="stylesheet" href="./src/output.css" />
-    <title>flex layout</title>
+    <title>Product Page</title>
 </head>
-<body>
+<body id="product-page">
 
-      <header>
+<header>
   <nav class="w-full border-b-1 border-white hover:border-black fixed hover:bg-amber-50 ">
    <div class="max-w-7xl mx-auto px-4 h-16 sm:h-20 flex items-center justify-between  text-black">
 
@@ -73,7 +73,7 @@
     <div class="grid md:grid-cols-2 gap-10 items-start">
 
       <!-- Left container -->
-      <div class=" justify-center">
+      <div class=" justify-center hover:animate-pulse">
         <img
           src="./images/card5.jpg"
           alt="img"
@@ -97,11 +97,12 @@
         <div class="mt-6">
           <p class="font-medium mb-2">Colors</p>
           <div class="flex gap-3">
-            <button class="w-12 h-10 bg-yellow-700 rounded border"></button>
-            <button class="w-12 h-10 bg-pink-600 rounded border"></button>
-            <button class="w-12 h-10 bg-blue-900 rounded border-2 border-black"></button>
+           
+            <div class="border-2 border-gray-400 rounded-2xl my-5 hover:animate-bounce"><img src="./images/bag2.png" alt=""></div>
+            <div class="border-2 border-gray-400 rounded-2xl my-5 hover:animate-bounce"><img src="./images/product1.png" alt=""></div>
+            <div class="border-2 border-gray-400 rounded-2xl my-5 hover:animate-bounce"><img src="./images/bag3.png" alt=""></div>
           </div>
-          <p class="text-sm mt-2 text-gray-600">Ocean</p>
+          <p class="text-sm mt-2 text-gray-600 ">Ocean</p>
         </div>
 
         <!-- -------->
@@ -151,7 +152,7 @@
         />
       </div>
 
-    <!-- Right Accordion -->
+    <!-- Right container -->
     <div class="border-t">
 
       <!-- Item -->
@@ -194,7 +195,7 @@
 
    <!-- ---Card Section---  -->
 <section class=" mx-auto px-4 py-20">
-  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 ">
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 ">
 
     <!-- Card 1 -->
     <div class="relative bg-white  shadow-xl overflow-hidden py-10 border-2 border-gray-200">
